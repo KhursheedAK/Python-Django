@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(125, 184, 233);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.container h1 {
+  border: 0.2rem solid black;
+  margin: 1rem;
+}
+
+.container > p:first-of-type {
+  background-color: bisque;
+  margin: 1rem;
+}
+
+.container .mainSection h2 {
+  margin: 1rem;
+  color: rgb(102, 2, 128);
+}
+
+.container .mainSection > p:first-of-type {
+  margin: 1rem;
+}
+
+.container .mainSection ol {
+  margin: 0rem 2rem 1rem 2rem;
+}
+
+.container .formSection textarea {
+  margin: 0rem 1rem 1rem 1rem;
+  border: 3px solid #6b6868;
+}
+
+.container .formSection h2 {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.container .formSection .inputFields {
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.container .feedbackSection {
+  background-color: blue;
+  border: 3px dashed yellow;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.container .feedbackSection p:first-of-type {
+  margin: 1rem;
+  background-color: blanchedalmond;
+}
+
+.container .feedbackSection textarea {
+  margin: 0rem 1rem 0rem 1rem;
+}

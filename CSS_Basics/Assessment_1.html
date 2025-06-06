@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assessment_1.css" />
+    <title>CSS-Basics-Assessment-1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Free Blog!</h1>
+      <p>Thanks so much for visiting this site!</p>
+
+      <div class="mainSection">
+        <h2>What is this Site for?</h2>
+        <p>This site can do three things:</p>
+        <ol>
+          <li>
+            <label for="textInput"> Take in Text input </label>
+          </li>
+          <li>Take in Log In Information</li>
+          <li>
+            <a href="https://www.google.com" target="_blank"
+              >Take you to Google</a
+            >
+          </li>
+        </ol>
+      </div>
+
+      <div class="formSection">
+        <form>
+          <textarea
+            id="textInput"
+            rows="10"
+            cols="50"
+            placeholder="Enter text here!"
+          ></textarea>
+
+          <h2>Please log in to save your blog post</h2>
+
+          <div class="inputFields">
+            <label for="emailInput">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="emailInput"
+              placeholder="Enter email here!"
+              required
+            />
+            <label for="passInput">Password:</label>
+            <input
+              type="password"
+              name="pass"
+              id="passInput"
+              placeholder="Enter password here"
+              required
+            />
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+
+      <div class="feedbackSection">
+        <p>
+          <label for="feedbackInput">
+            Questions or Comments? Send us feedback here:
+          </label>
+        </p>
+        <form>
+          <textarea
+            id="feedbackInput"
+            rows="15"
+            cols="50"
+            placeholder="Enter feedback here!"
+          ></textarea>
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
