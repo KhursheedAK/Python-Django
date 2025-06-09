@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 3.4rem;
+}
+
+.caveat-font {
+  font-family: 'Caveat', cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fascinate-inline-regular {
+  font-family: 'Fascinate Inline', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kavoon-regular {
+  font-family: 'Kavoon', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.container .heading p {
+  text-align: center;
+}
+
+.container .spectrum-v {
+  margin: 2rem 0rem 0rem 0rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .spectrum-v .spec-i {
+  background-color: #fce7c8;
+  width: 20vh;
+  height: 40vh;
+}
+
+.container .spectrum-v .spec-ii {
+  background-color: #b1c29e;
+  width: 20vh;
+  height: 40vh;
+}
+
+.container .spectrum-v .spec-iii {
+  background-color: #fada7a;
+  width: 20vh;
+  height: 40vh;
+}
+
+.container .spectrum-v .spec-iv {
+  background-color: #f0a04b;
+  width: 20vh;
+  height: 40vh;
+}
+
+.container .spectrum-v .spec-v {
+  background-color: #ff7601;
+  width: 20vh;
+  height: 40vh;
+}
